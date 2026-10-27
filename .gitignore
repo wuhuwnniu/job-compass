@@ -1,0 +1,19 @@
+# 依赖 / 工具链（本机打包用，不入库）
+tools/
+build/
+.edge-*/
+
+# 生成物：跑脚本可重建
+dist/
+app/data.js
+app/dadian.js
+
+# 大典原始数据的层级版（脚本只用扁平版）
+data/external/dadian2022_hierarchical.json
+
+# 个人环境
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc

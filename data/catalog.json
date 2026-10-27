@@ -1,0 +1,752 @@
+[
+  {
+    "id": "fe-dev",
+    "name": "前端开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "be-dev",
+    "name": "后端开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "qa-test",
+    "name": "软件测试工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "ops-cloud",
+    "name": "运维/云工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "data-analyst",
+    "name": "数据分析师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "ml-engineer",
+    "name": "算法/机器学习工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "mobile-dev",
+    "name": "移动端开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "security-eng",
+    "name": "网络安全工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "tech-support",
+    "name": "技术支持/实施工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "product-manager",
+    "name": "产品经理",
+    "track": "产品/设计"
+  },
+  {
+    "id": "ui-designer",
+    "name": "UI 设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "ux-designer",
+    "name": "交互设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "user-researcher",
+    "name": "用户研究员",
+    "track": "产品/设计"
+  },
+  {
+    "id": "game-planner",
+    "name": "游戏策划",
+    "track": "产品/设计"
+  },
+  {
+    "id": "content-ops",
+    "name": "内容运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "newmedia-ops",
+    "name": "新媒体运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "user-ops",
+    "name": "用户运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "marketing-specialist",
+    "name": "市场专员",
+    "track": "运营/市场"
+  },
+  {
+    "id": "brand-pr",
+    "name": "品牌公关",
+    "track": "运营/市场"
+  },
+  {
+    "id": "ecommerce-ops",
+    "name": "电商运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "growth-marketer",
+    "name": "增长/投放专员",
+    "track": "运营/市场"
+  },
+  {
+    "id": "event-planner",
+    "name": "活动策划",
+    "track": "运营/市场"
+  },
+  {
+    "id": "b2b-sales",
+    "name": "大客户销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "bd-specialist",
+    "name": "商务拓展",
+    "track": "销售/商务"
+  },
+  {
+    "id": "presales",
+    "name": "售前工程师",
+    "track": "销售/商务"
+  },
+  {
+    "id": "customer-success",
+    "name": "客户成功经理",
+    "track": "销售/商务"
+  },
+  {
+    "id": "hr-specialist",
+    "name": "人力资源专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "accountant",
+    "name": "会计",
+    "track": "职能/财务"
+  },
+  {
+    "id": "fpa-analyst",
+    "name": "财务分析",
+    "track": "职能/财务"
+  },
+  {
+    "id": "legal-assistant",
+    "name": "法务助理",
+    "track": "职能/财务"
+  },
+  {
+    "id": "admin",
+    "name": "行政专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "procurement",
+    "name": "采购/供应链专员",
+    "track": "制造/工程"
+  },
+  {
+    "id": "auditor",
+    "name": "审计助理",
+    "track": "职能/财务"
+  },
+  {
+    "id": "bank-teller",
+    "name": "银行柜员/客户经理",
+    "track": "金融"
+  },
+  {
+    "id": "research-assistant",
+    "name": "证券研究助理",
+    "track": "金融"
+  },
+  {
+    "id": "insurance-advisor",
+    "name": "保险顾问",
+    "track": "金融"
+  },
+  {
+    "id": "credit-risk",
+    "name": "风控/信贷专员",
+    "track": "金融"
+  },
+  {
+    "id": "teacher",
+    "name": "中小学教师",
+    "track": "教育"
+  },
+  {
+    "id": "trainer",
+    "name": "培训讲师",
+    "track": "教育"
+  },
+  {
+    "id": "curriculum-designer",
+    "name": "课程设计/教研",
+    "track": "教育"
+  },
+  {
+    "id": "study-abroad",
+    "name": "留学顾问",
+    "track": "教育"
+  },
+  {
+    "id": "nurse",
+    "name": "护士",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "pharmacist",
+    "name": "药师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "medical-device-sales",
+    "name": "医疗器械销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "health-manager",
+    "name": "健康管理师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "medical-editor",
+    "name": "医学编辑",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "mechanical-design",
+    "name": "机械设计工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "electrical-eng",
+    "name": "电气工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "process-eng",
+    "name": "工艺工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "quality-eng",
+    "name": "质量工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "journalist",
+    "name": "编辑记者",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "video-director",
+    "name": "短视频编导",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "photographer",
+    "name": "摄影/摄像师",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "graphic-designer",
+    "name": "平面设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "translator",
+    "name": "翻译",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "civil-servant",
+    "name": "公务员/事业单位",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "social-worker",
+    "name": "社会工作者",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "realtor",
+    "name": "房产经纪人",
+    "track": "销售/商务"
+  },
+  {
+    "id": "hotel-mgmt",
+    "name": "酒店管培生",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "headhunter",
+    "name": "猎头顾问",
+    "track": "职能/财务"
+  },
+  {
+    "id": "devops-eng",
+    "name": "DevOps 工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "dba",
+    "name": "数据库管理员",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "embedded-eng",
+    "name": "嵌入式开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "game-client",
+    "name": "游戏客户端开发",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "it-support",
+    "name": "IT 支持工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "qa-automation",
+    "name": "自动化测试工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "data-engineer",
+    "name": "数据工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "ai-app-engineer",
+    "name": "AI 应用工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "tech-writer",
+    "name": "技术文档工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "mini-program",
+    "name": "小程序开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "product-ops",
+    "name": "产品运营",
+    "track": "产品/设计"
+  },
+  {
+    "id": "visual-designer",
+    "name": "视觉设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "illustrator",
+    "name": "插画师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "animator",
+    "name": "动画师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "interior-designer",
+    "name": "室内设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "industrial-designer",
+    "name": "工业设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "packaging-designer",
+    "name": "包装设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "video-editor",
+    "name": "视频剪辑师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "game-artist",
+    "name": "游戏美术",
+    "track": "产品/设计"
+  },
+  {
+    "id": "exhibition-designer",
+    "name": "展陈设计师",
+    "track": "产品/设计"
+  },
+  {
+    "id": "community-ops",
+    "name": "社群运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "live-ops",
+    "name": "直播运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "ecommerce-cs",
+    "name": "电商客服",
+    "track": "运营/市场"
+  },
+  {
+    "id": "seo-specialist",
+    "name": "SEO / SEM 专员",
+    "track": "运营/市场"
+  },
+  {
+    "id": "channel-sales",
+    "name": "渠道销售",
+    "track": "运营/市场"
+  },
+  {
+    "id": "merchandiser",
+    "name": "买手 / 商品企划",
+    "track": "运营/市场"
+  },
+  {
+    "id": "market-researcher",
+    "name": "市场调研员",
+    "track": "运营/市场"
+  },
+  {
+    "id": "copywriter",
+    "name": "广告文案",
+    "track": "运营/市场"
+  },
+  {
+    "id": "event-exec",
+    "name": "活动执行",
+    "track": "运营/市场"
+  },
+  {
+    "id": "franchise-sales",
+    "name": "招商专员",
+    "track": "运营/市场"
+  },
+  {
+    "id": "foreign-trade-sales",
+    "name": "外贸业务员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "foreign-trade-merchandiser",
+    "name": "外贸跟单员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "freight-forwarder",
+    "name": "货运代理",
+    "track": "销售/商务"
+  },
+  {
+    "id": "customer-service",
+    "name": "客服专员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "retail-sales",
+    "name": "门店导购",
+    "track": "销售/商务"
+  },
+  {
+    "id": "telemarketing",
+    "name": "电话销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "bidding-specialist",
+    "name": "招投标专员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "cashier",
+    "name": "出纳",
+    "track": "职能/财务"
+  },
+  {
+    "id": "tax-specialist",
+    "name": "税务专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "compensation-hr",
+    "name": "薪酬绩效专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "recruiter",
+    "name": "招聘专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "compliance",
+    "name": "合规专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "board-secretary",
+    "name": "董秘 / 证券事务",
+    "track": "职能/财务"
+  },
+  {
+    "id": "archivist",
+    "name": "档案管理员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "receptionist",
+    "name": "前台",
+    "track": "职能/财务"
+  },
+  {
+    "id": "internal-control",
+    "name": "内控专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "wealth-manager",
+    "name": "理财经理",
+    "track": "金融"
+  },
+  {
+    "id": "fund-ops",
+    "name": "基金运营",
+    "track": "金融"
+  },
+  {
+    "id": "ib-analyst",
+    "name": "投行分析师",
+    "track": "金融"
+  },
+  {
+    "id": "claims-adjuster",
+    "name": "保险理赔员",
+    "track": "金融"
+  },
+  {
+    "id": "kindergarten-teacher",
+    "name": "幼儿园教师",
+    "track": "教育"
+  },
+  {
+    "id": "special-ed-teacher",
+    "name": "特教教师",
+    "track": "教育"
+  },
+  {
+    "id": "college-counselor",
+    "name": "高校辅导员",
+    "track": "教育"
+  },
+  {
+    "id": "tutor",
+    "name": "课外辅导老师",
+    "track": "教育"
+  },
+  {
+    "id": "exam-trainer",
+    "name": "考公考研讲师",
+    "track": "教育"
+  },
+  {
+    "id": "pe-coach",
+    "name": "体育教练",
+    "track": "教育"
+  },
+  {
+    "id": "art-teacher",
+    "name": "美术老师",
+    "track": "教育"
+  },
+  {
+    "id": "edu-consultant",
+    "name": "教育咨询师",
+    "track": "教育"
+  },
+  {
+    "id": "clinician",
+    "name": "临床医生",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "dentist",
+    "name": "口腔医生",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "lab-technician",
+    "name": "医学检验师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "rehab-therapist",
+    "name": "康复治疗师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "psych-counselor",
+    "name": "心理咨询师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "dietitian",
+    "name": "营养师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "veterinarian",
+    "name": "兽医",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "elder-care",
+    "name": "养老护理员",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "pharma-rep",
+    "name": "医药代表",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "imaging-tech",
+    "name": "影像技师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "mold-design",
+    "name": "模具设计师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "cnc-programmer",
+    "name": "数控编程员",
+    "track": "制造/工程"
+  },
+  {
+    "id": "welding-eng",
+    "name": "焊接工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "equipment-maintenance",
+    "name": "设备维修工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "pmc-planner",
+    "name": "生产计划 PMC",
+    "track": "制造/工程"
+  },
+  {
+    "id": "safety-officer",
+    "name": "安全员",
+    "track": "制造/工程"
+  },
+  {
+    "id": "construction-supervisor",
+    "name": "施工员",
+    "track": "制造/工程"
+  },
+  {
+    "id": "cost-engineer",
+    "name": "造价工程师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "architect-designer",
+    "name": "建筑设计师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "surveyor",
+    "name": "测绘员",
+    "track": "制造/工程"
+  },
+  {
+    "id": "scriptwriter",
+    "name": "编剧",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "voice-actor",
+    "name": "配音员",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "streamer",
+    "name": "带货主播",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "film-post",
+    "name": "影视后期",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "proofreader",
+    "name": "校对员",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "police-officer",
+    "name": "民警",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "firefighter",
+    "name": "消防员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "courier",
+    "name": "快递员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "delivery-rider",
+    "name": "外卖骑手",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "ride-hailing-driver",
+    "name": "网约车司机",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "tour-guide",
+    "name": "导游",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "chef",
+    "name": "厨师",
+    "track": "公共服务/其他"
+  }
+]
