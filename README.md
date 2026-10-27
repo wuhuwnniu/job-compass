@@ -5,6 +5,8 @@
 
 面向刚毕业、还没毕业、暂时待业的人。不填求职意向，不注册，不联网，数据只存在你自己的手机里。
 
+**在线版**：https://wuhuwnniu.github.io/job-compass/ —— 仓库 Settings → Pages → Source 选「GitHub Actions」，push 后自动构建。
+
 ---
 
 ## 目录
