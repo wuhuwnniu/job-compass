@@ -2,7 +2,11 @@
   {
     "id": "trainer",
     "name": "培训讲师",
-    "aliases": ["企业培训师", "课程讲师", "内训师"],
+    "aliases": [
+      "企业培训师",
+      "课程讲师",
+      "内训师"
+    ],
     "track": "教育",
     "tagline": "站在台上把一件事讲明白，还得让人愿意听下去",
     "daily": [
@@ -13,21 +17,57 @@
       "晚上录一段试听课发到群里，顺便给新来的讲师改课件"
     ],
     "friendly": "中",
-    "majors": ["教育学", "汉语言文学", "心理学", "人力资源管理", "市场营销"],
+    "majors": [
+      "教育学",
+      "汉语言文学",
+      "心理学",
+      "人力资源管理",
+      "市场营销"
+    ],
     "skills": [
-      { "id": "teaching", "w": 3 },
-      { "id": "presentation", "w": 3 },
-      { "id": "curriculum", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "psychology", "w": 2 },
-      { "id": "writing", "w": 1 },
-      { "id": "pressure", "w": 1 }
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "presentation",
+        "w": 3
+      },
+      {
+        "id": "curriculum",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 2
+      },
+      {
+        "id": "writing",
+        "w": 1
+      },
+      {
+        "id": "pressure",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [9, 18],
-      "senior": [18, 35],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        9,
+        18
+      ],
+      "senior": [
+        18,
+        35
+      ],
       "note": "一线/新一线城市参考区间，底薪普遍不高、课时费占大头，收入随开课量波动；估算值，不是官方统计"
     },
     "growth": [
@@ -68,13 +108,20 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "curriculum-designer", "hr-specialist"],
+    "adjacent": [
+      "teacher",
+      "curriculum-designer",
+      "hr-specialist"
+    ],
     "reality": "收入大头是课时费，没课就没钱，寒暑假和招生季连着讲，嗓子基本都会坏一次；学员评分低会被直接砍课，续报率压在身上，本质上是半个销售。不喜欢重复讲同一套内容、受不了被当众质疑的人，干这个会很耗。"
   },
   {
     "id": "curriculum-designer",
     "name": "课程设计/教研",
-    "aliases": ["教研员", "课程研发", "教学内容设计"],
+    "aliases": [
+      "课程研发",
+      "教学内容设计"
+    ],
     "track": "教育",
     "tagline": "把一门课拆成能教、能学、能考的一节节课",
     "daily": [
@@ -85,22 +132,61 @@
       "统计上一期学员的错题率，把错误率最高的三节重新排顺序"
     ],
     "friendly": "中",
-    "majors": ["教育学", "小学教育", "汉语言文学", "数学与应用数学", "英语"],
+    "majors": [
+      "教育学",
+      "小学教育",
+      "汉语言文学",
+      "数学与应用数学",
+      "英语"
+    ],
     "skills": [
-      { "id": "curriculum", "w": 3 },
-      { "id": "writing", "w": 3 },
-      { "id": "teaching", "w": 2 },
-      { "id": "editing", "w": 2 },
-      { "id": "logic", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "excel", "w": 1 },
-      { "id": "communication", "w": 1 }
+      {
+        "id": "curriculum",
+        "w": 3
+      },
+      {
+        "id": "writing",
+        "w": 3
+      },
+      {
+        "id": "teaching",
+        "w": 2
+      },
+      {
+        "id": "editing",
+        "w": 2
+      },
+      {
+        "id": "logic",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 1
+      },
+      {
+        "id": "communication",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [6, 10],
-      "mid": [10, 18],
-      "senior": [18, 30],
+      "junior": [
+        6,
+        10
+      ],
+      "mid": [
+        10,
+        18
+      ],
+      "senior": [
+        18,
+        30
+      ],
       "note": "一线/新一线城市参考区间，出版社和学校偏低但稳定，教培与职教机构偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -141,13 +227,21 @@
         ]
       }
     ],
-    "adjacent": ["trainer", "teacher", "content-ops"],
+    "adjacent": [
+      "trainer",
+      "teacher",
+      "content-ops"
+    ],
     "reality": "大部分时间在改稿、对视频、统计错题，这些活枯燥且量很大，真正「设计」的部分不到三成；课卖不动的时候，第一个被质疑的就是教研；K12 学科类 2021 年后砍了一大批岗位，很多人转行。喜欢稳定输出、不介意做幕后的人合适，想站台露脸的会憋屈。"
   },
   {
     "id": "study-abroad",
     "name": "留学顾问",
-    "aliases": ["留学咨询顾问", "升学规划师", "留学中介顾问"],
+    "aliases": [
+      "留学咨询顾问",
+      "升学规划师",
+      "留学中介顾问"
+    ],
     "track": "教育",
     "tagline": "帮学生挑学校、改材料、盯截止日期，顺带把服务卖出去",
     "daily": [
@@ -158,22 +252,61 @@
       "晚上做一场线上讲座，讲今年英国申请的变化，末尾留咨询入口"
     ],
     "friendly": "中",
-    "majors": ["英语", "翻译", "教育学", "国际经济与贸易", "汉语言文学"],
+    "majors": [
+      "英语",
+      "翻译",
+      "教育学",
+      "国际经济与贸易",
+      "汉语言文学"
+    ],
     "skills": [
-      { "id": "foreign_language", "w": 3 },
-      { "id": "sales", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "writing", "w": 2 },
-      { "id": "editing", "w": 2 },
-      { "id": "service_mind", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "market_research", "w": 1 }
+      {
+        "id": "foreign_language",
+        "w": 3
+      },
+      {
+        "id": "sales",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "writing",
+        "w": 2
+      },
+      {
+        "id": "editing",
+        "w": 2
+      },
+      {
+        "id": "service_mind",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "market_research",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [9, 20],
-      "senior": [20, 40],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        9,
+        20
+      ],
+      "senior": [
+        20,
+        40
+      ],
       "note": "一线/新一线城市参考区间，底薪通常 4–8 千，其余靠签约提成，旺季淡季差距极大；估算值，不是官方统计"
     },
     "growth": [
@@ -214,13 +347,21 @@
         ]
       }
     ],
-    "adjacent": ["trainer", "translator", "b2b-sales"],
+    "adjacent": [
+      "trainer",
+      "translator",
+      "b2b-sales"
+    ],
     "reality": "本质是销售，KPI 是签约额和签约数，完不成只能拿底薪；家长焦虑、学生拖延，截止日期前通宵改材料是常事；政策一变（签证、汇率、招生名额）整条产品线就凉。心软、不好意思催单、被家长质疑两句就顶不住的人，很难做下去。"
   },
   {
     "id": "nurse",
     "name": "护士",
-    "aliases": ["临床护士", "注册护士", "护理人员"],
+    "aliases": [
+      "临床护士",
+      "注册护士",
+      "护理人员"
+    ],
     "track": "医疗/健康",
     "tagline": "打针发药、盯监护、写记录，病人有事第一个被叫的是你",
     "daily": [
@@ -231,22 +372,59 @@
       "夜班每两小时巡一次房，报警响了先跑过去看是谁"
     ],
     "friendly": "低",
-    "majors": ["护理学", "助产学", "中医护理学"],
+    "majors": [
+      "护理学",
+      "助产学",
+      "中医护理学"
+    ],
     "skills": [
-      { "id": "nursing", "w": 3 },
-      { "id": "medical", "w": 3 },
-      { "id": "detail", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "empathy", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "health_management", "w": 1 },
-      { "id": "excel", "w": 1 }
+      {
+        "id": "nursing",
+        "w": 3
+      },
+      {
+        "id": "medical",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "empathy",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "health_management",
+        "w": 1
+      },
+      {
+        "id": "excel",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [8, 15],
-      "senior": [15, 25],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        8,
+        15
+      ],
+      "senior": [
+        15,
+        25
+      ],
       "note": "三四线公立医院偏低，三甲合同制含夜班费偏高，编制内外差距明显；估算值，不是官方统计"
     },
     "growth": [
@@ -287,13 +465,21 @@
         ]
       }
     ],
-    "adjacent": ["health-manager", "medical-device-sales", "pharmacist"],
+    "adjacent": [
+      "health-manager",
+      "medical-device-sales",
+      "pharmacist"
+    ],
     "reality": "三班倒，一周两三个夜班，作息长期是乱的；病人和家属的脾气都得接，被骂被投诉是常事；体力活多，四十岁以后腰和静脉曲张基本是标配。编制越来越少，合同制同工不同酬，涨薪主要靠考职称，很慢。见不了血、受不了被使唤的人别来。"
   },
   {
     "id": "pharmacist",
     "name": "药师",
-    "aliases": ["执业药师", "医院药师", "药店药师"],
+    "aliases": [
+      "执业药师",
+      "医院药师",
+      "药店药师"
+    ],
     "track": "医疗/健康",
     "tagline": "审处方、配药，跟病人说清怎么吃，还得盯住配伍禁忌",
     "daily": [
@@ -304,20 +490,53 @@
       "下班前把新到药品的说明书翻一遍，记下不常见的副作用"
     ],
     "friendly": "低",
-    "majors": ["药学", "临床药学", "中药学", "药物制剂", "制药工程"],
+    "majors": [
+      "药学",
+      "临床药学",
+      "中药学",
+      "药物制剂",
+      "制药工程"
+    ],
     "skills": [
-      { "id": "medical", "w": 3 },
-      { "id": "detail", "w": 3 },
-      { "id": "communication", "w": 2 },
-      { "id": "service_mind", "w": 2 },
-      { "id": "law", "w": 1 },
-      { "id": "excel", "w": 1 }
+      {
+        "id": "medical",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "service_mind",
+        "w": 2
+      },
+      {
+        "id": "law",
+        "w": 1
+      },
+      {
+        "id": "excel",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [7, 13],
-      "senior": [13, 22],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        7,
+        13
+      ],
+      "senior": [
+        13,
+        22
+      ],
       "note": "医院药师看编制和职称，零售药店看门店业绩，连锁和单体店差距大；估算值，不是官方统计"
     },
     "growth": [
@@ -358,13 +577,21 @@
         ]
       }
     ],
-    "adjacent": ["nurse", "medical-editor", "health-manager"],
+    "adjacent": [
+      "nurse",
+      "medical-editor",
+      "health-manager"
+    ],
     "reality": "药店药师的日常一半是卖货，店长盯的是客单价和保健品占比，专业建议常常要让位给业绩；医院药师在发药窗口一站一天，还要背处方点评和不良反应上报的锅。执业药师证考下来不等于涨薪，很多地方只是「有这个证才能开店」，挂证现在查得越来越严，别碰。"
   },
   {
     "id": "medical-device-sales",
     "name": "医疗器械销售",
-    "aliases": ["器械代表", "耗材销售", "跟台销售"],
+    "aliases": [
+      "器械代表",
+      "耗材销售",
+      "跟台销售"
+    ],
     "track": "销售/商务",
     "tagline": "跑医院、进手术室跟台、盯招标，把设备和耗材卖进去",
     "daily": [
@@ -375,22 +602,61 @@
       "晚上陪客户吃饭，回来把今天的拜访记录填进系统"
     ],
     "friendly": "中",
-    "majors": ["生物医学工程", "临床医学", "药学", "市场营销", "护理学"],
+    "majors": [
+      "生物医学工程",
+      "临床医学",
+      "药学",
+      "市场营销",
+      "护理学"
+    ],
     "skills": [
-      { "id": "sales", "w": 3 },
-      { "id": "medical", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "customer_success", "w": 2 },
-      { "id": "business_sense", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "drive", "w": 2 },
-      { "id": "presentation", "w": 1 }
+      {
+        "id": "sales",
+        "w": 3
+      },
+      {
+        "id": "medical",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "customer_success",
+        "w": 2
+      },
+      {
+        "id": "business_sense",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "drive",
+        "w": 2
+      },
+      {
+        "id": "presentation",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [6, 12],
-      "mid": [12, 25],
-      "senior": [25, 45],
+      "junior": [
+        6,
+        12
+      ],
+      "mid": [
+        12,
+        25
+      ],
+      "senior": [
+        25,
+        45
+      ],
       "note": "一线/新一线城市参考区间，底薪 4–8 千，其余靠提成；集采品种提成很薄，进口设备线偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -431,13 +697,21 @@
         ]
       }
     ],
-    "adjacent": ["b2b-sales", "presales", "customer-success"],
+    "adjacent": [
+      "b2b-sales",
+      "presales",
+      "customer-success"
+    ],
     "reality": "指标年年涨，集采一来整条产品线利润腰斩，提成直接没了；跟台要站手术室、吃辐射、随叫随到，凌晨被叫去医院熬到天亮是常事；应酬多，不喝不聊这套玩不转就吃亏。合规越来越严，以前能用的路子现在可能直接丢工作。"
   },
   {
     "id": "health-manager",
     "name": "健康管理师",
-    "aliases": ["健康管理顾问", "慢病管理师", "健康顾问"],
+    "aliases": [
+      "健康管理顾问",
+      "慢病管理师",
+      "健康顾问"
+    ],
     "track": "医疗/健康",
     "tagline": "帮人建健康档案、盯慢病指标、给饮食和运动建议",
     "daily": [
@@ -448,22 +722,61 @@
       "晚上在客户群里发一条控盐的小知识，顺便催几个人回来复查"
     ],
     "friendly": "中",
-    "majors": ["健康服务与管理", "预防医学", "护理学", "食品卫生与营养学", "运动康复"],
+    "majors": [
+      "健康服务与管理",
+      "预防医学",
+      "护理学",
+      "食品卫生与营养学",
+      "运动康复"
+    ],
     "skills": [
-      { "id": "health_management", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "medical", "w": 2 },
-      { "id": "empathy", "w": 2 },
-      { "id": "service_mind", "w": 2 },
-      { "id": "psychology", "w": 2 },
-      { "id": "excel", "w": 1 },
-      { "id": "sales", "w": 1 }
+      {
+        "id": "health_management",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "medical",
+        "w": 2
+      },
+      {
+        "id": "empathy",
+        "w": 2
+      },
+      {
+        "id": "service_mind",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 1
+      },
+      {
+        "id": "sales",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 7],
-      "mid": [7, 12],
-      "senior": [12, 20],
+      "junior": [
+        4,
+        7
+      ],
+      "mid": [
+        7,
+        12
+      ],
+      "senior": [
+        12,
+        20
+      ],
       "note": "体检中心和健康管理公司偏低，保险健康险、高端私立诊所偏高，纯管理岗很少；估算值，不是官方统计"
     },
     "growth": [
@@ -504,13 +817,21 @@
         ]
       }
     ],
-    "adjacent": ["nurse", "customer-success", "insurance-advisor"],
+    "adjacent": [
+      "nurse",
+      "customer-success",
+      "insurance-advisor"
+    ],
     "reality": "证书含金量有限，几千块包过的班一大把，考下来才发现招聘方更看医学背景和客户资源；大部分岗位实际是「健康顾问加销售」，要卖体检套餐、卖疗程，纯做管理的岗位很少；日常还要录档案、打电话催复查，活枯燥且重复。客户依从性差，方案他不执行，效果不好还是怪你，想靠一个证转行的人落差会很大。"
   },
   {
     "id": "medical-editor",
     "name": "医学编辑",
-    "aliases": ["医药编辑", "医学内容编辑", "学术编辑"],
+    "aliases": [
+      "医药编辑",
+      "医学内容编辑",
+      "学术编辑"
+    ],
     "track": "传媒/内容",
     "tagline": "把医生和药企的专业内容，改成人能读懂又不失真的稿子",
     "daily": [
@@ -521,22 +842,61 @@
       "下班前把下个月选题表填完，标注每篇要几位专家审"
     ],
     "friendly": "中",
-    "majors": ["临床医学", "药学", "预防医学", "编辑出版学", "汉语言文学"],
+    "majors": [
+      "临床医学",
+      "药学",
+      "预防医学",
+      "编辑出版学",
+      "汉语言文学"
+    ],
     "skills": [
-      { "id": "editing", "w": 3 },
-      { "id": "medical", "w": 3 },
-      { "id": "writing", "w": 3 },
-      { "id": "foreign_language", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "communication", "w": 1 },
-      { "id": "law", "w": 1 },
-      { "id": "ai_tools", "w": 1 }
+      {
+        "id": "editing",
+        "w": 3
+      },
+      {
+        "id": "medical",
+        "w": 3
+      },
+      {
+        "id": "writing",
+        "w": 3
+      },
+      {
+        "id": "foreign_language",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 1
+      },
+      {
+        "id": "law",
+        "w": 1
+      },
+      {
+        "id": "ai_tools",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [9, 16],
-      "senior": [16, 28],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        9,
+        16
+      ],
+      "senior": [
+        16,
+        28
+      ],
       "note": "出版社偏低但稳定，药企市场部、医学传播公司偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -577,13 +937,21 @@
         ]
       }
     ],
-    "adjacent": ["content-ops", "journalist", "translator"],
+    "adjacent": [
+      "content-ops",
+      "journalist",
+      "translator"
+    ],
     "reality": "稿子改到第八版是常态，最后拍板的往往是不太懂医学的市场部；署名和话语权都低，功劳是专家的、锅是你的；药企线收入高但要能受得住反复审核，出版社线稳定但涨薪慢。文字洁癖重、受不了别人乱改的人会很煎熬。"
   },
   {
     "id": "mechanical-design",
     "name": "机械设计工程师",
-    "aliases": ["结构设计工程师", "机械工程师", "非标设计"],
+    "aliases": [
+      "结构设计工程师",
+      "机械工程师",
+      "非标设计"
+    ],
     "track": "制造/工程",
     "tagline": "用三维软件把一台设备画出来，还得让它造得出、装得上",
     "daily": [
@@ -594,22 +962,60 @@
       "整理 BOM，把标准件和外购件的型号、数量核对一遍"
     ],
     "friendly": "高",
-    "majors": ["机械设计制造及其自动化", "机械工程", "车辆工程", "材料成型及控制工程"],
+    "majors": [
+      "机械设计制造及其自动化",
+      "机械工程",
+      "车辆工程",
+      "材料成型及控制工程"
+    ],
     "skills": [
-      { "id": "cad", "w": 3 },
-      { "id": "3d_modeling", "w": 2 },
-      { "id": "manufacturing", "w": 2 },
-      { "id": "problem_solving", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "teamwork", "w": 1 },
-      { "id": "project_management", "w": 1 },
-      { "id": "quality", "w": 1 }
+      {
+        "id": "cad",
+        "w": 3
+      },
+      {
+        "id": "3d_modeling",
+        "w": 2
+      },
+      {
+        "id": "manufacturing",
+        "w": 2
+      },
+      {
+        "id": "problem_solving",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "teamwork",
+        "w": 1
+      },
+      {
+        "id": "project_management",
+        "w": 1
+      },
+      {
+        "id": "quality",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [9, 16],
-      "senior": [16, 28],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        9,
+        16
+      ],
+      "senior": [
+        16,
+        28
+      ],
       "note": "传统机械偏低，新能源、半导体设备、医疗器械方向偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -650,13 +1056,21 @@
         ]
       }
     ],
-    "adjacent": ["process-eng", "quality-eng", "electrical-eng"],
+    "adjacent": [
+      "process-eng",
+      "quality-eng",
+      "electrical-eng"
+    ],
     "reality": "大部分时间在改图、标尺寸、对 BOM，这些活枯燥，真正「设计」的创意部分很少；试装出问题第一个被叫去车间，改一处牵动十张图；传统制造业薪资天花板明显，干五年可能还不如互联网应届。坐不住、讨厌抠细节、受不了反复返工的人，干这行会很磨。"
   },
   {
     "id": "electrical-eng",
     "name": "电气工程师",
-    "aliases": ["电气设计工程师", "强电工程师", "自动化电气工程师"],
+    "aliases": [
+      "电气设计工程师",
+      "强电工程师",
+      "自动化电气工程师"
+    ],
     "track": "制造/工程",
     "tagline": "画电气图、选型、调试，让设备通上电还能安全停下来",
     "daily": [
@@ -667,22 +1081,60 @@
       "整理图纸和说明书，把这次改的地方标进版本记录"
     ],
     "friendly": "中",
-    "majors": ["电气工程及其自动化", "自动化", "电子信息工程", "建筑电气与智能化"],
+    "majors": [
+      "电气工程及其自动化",
+      "自动化",
+      "电子信息工程",
+      "建筑电气与智能化"
+    ],
     "skills": [
-      { "id": "electrical", "w": 3 },
-      { "id": "cad", "w": 2 },
-      { "id": "problem_solving", "w": 2 },
-      { "id": "manufacturing", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "teamwork", "w": 2 },
-      { "id": "project_management", "w": 1 }
+      {
+        "id": "electrical",
+        "w": 3
+      },
+      {
+        "id": "cad",
+        "w": 2
+      },
+      {
+        "id": "problem_solving",
+        "w": 2
+      },
+      {
+        "id": "manufacturing",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "teamwork",
+        "w": 2
+      },
+      {
+        "id": "project_management",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [6, 10],
-      "mid": [10, 18],
-      "senior": [18, 32],
+      "junior": [
+        6,
+        10
+      ],
+      "mid": [
+        10,
+        18
+      ],
+      "senior": [
+        18,
+        32
+      ],
       "note": "电网、设计院偏高且稳定，成套厂和工程现场偏低；新能源方向这两年薪资上浮明显；估算值，不是官方统计"
     },
     "growth": [
@@ -723,13 +1175,21 @@
         ]
       }
     ],
-    "adjacent": ["mechanical-design", "tech-support", "process-eng"],
+    "adjacent": [
+      "mechanical-design",
+      "tech-support",
+      "process-eng"
+    ],
     "reality": "出差多，项目在现场就得跟着，一待一两个月，调不好就通宵；图纸错一根线，现场要拆柜重接，责任跑不掉；传统电力设计院收入稳但涨得慢，成套厂和施工方累且杂。怕电、怕爬高、受不了长期在外的人别选。"
   },
   {
     "id": "process-eng",
     "name": "工艺工程师",
-    "aliases": ["制造工艺工程师", "PE 工程师", "制程工程师"],
+    "aliases": [
+      "制造工艺工程师",
+      "PE 工程师",
+      "制程工程师"
+    ],
     "track": "制造/工程",
     "tagline": "把图纸变成产线上的每一步，让工人照着做就能做对",
     "daily": [
@@ -740,22 +1200,61 @@
       "试产新机型，跟一整晚，记录每个工位的节拍和卡点"
     ],
     "friendly": "高",
-    "majors": ["机械设计制造及其自动化", "材料成型及控制工程", "工业工程", "自动化", "化学工程与工艺"],
+    "majors": [
+      "机械设计制造及其自动化",
+      "材料成型及控制工程",
+      "工业工程",
+      "自动化",
+      "化学工程与工艺"
+    ],
     "skills": [
-      { "id": "manufacturing", "w": 3 },
-      { "id": "quality", "w": 2 },
-      { "id": "cad", "w": 2 },
-      { "id": "problem_solving", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "teamwork", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "excel", "w": 1 }
+      {
+        "id": "manufacturing",
+        "w": 3
+      },
+      {
+        "id": "quality",
+        "w": 2
+      },
+      {
+        "id": "cad",
+        "w": 2
+      },
+      {
+        "id": "problem_solving",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "teamwork",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [9, 15],
-      "senior": [15, 26],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        9,
+        15
+      ],
+      "senior": [
+        15,
+        26
+      ],
       "note": "消费电子、新能源、半导体偏高，传统五金塑胶偏低；估算值，不是官方统计"
     },
     "growth": [
@@ -796,13 +1295,21 @@
         ]
       }
     ],
-    "adjacent": ["quality-eng", "mechanical-design", "procurement"],
+    "adjacent": [
+      "quality-eng",
+      "mechanical-design",
+      "procurement"
+    ],
     "reality": "大部分时间在产线站着，噪音、气味、无尘服，一天下来很累；出不良第一个被叫到现场，客户催货时通宵跟线是常事；工厂多在郊区或外地，跳槽常意味着换城市。受不了工厂环境、想要写字楼生活的人，别勉强。"
   },
   {
     "id": "quality-eng",
     "name": "质量工程师",
-    "aliases": ["QE 工程师", "品质工程师", "制程质量工程师"],
+    "aliases": [
+      "QE 工程师",
+      "品质工程师",
+      "制程质量工程师"
+    ],
     "track": "制造/工程",
     "tagline": "定标准、查问题、追着别人整改，还得扛住客户投诉",
     "daily": [
@@ -813,22 +1320,61 @@
       "更新控制计划，把这次出问题的项加进必检清单"
     ],
     "friendly": "中",
-    "majors": ["机械设计制造及其自动化", "质量管理工程", "材料科学与工程", "工业工程", "化学工程与工艺"],
+    "majors": [
+      "机械设计制造及其自动化",
+      "质量管理工程",
+      "材料科学与工程",
+      "工业工程",
+      "化学工程与工艺"
+    ],
     "skills": [
-      { "id": "quality", "w": 3 },
-      { "id": "detail", "w": 3 },
-      { "id": "statistics", "w": 2 },
-      { "id": "problem_solving", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "excel", "w": 1 },
-      { "id": "audit", "w": 1 }
+      {
+        "id": "quality",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 3
+      },
+      {
+        "id": "statistics",
+        "w": 2
+      },
+      {
+        "id": "problem_solving",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 1
+      },
+      {
+        "id": "audit",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [9, 15],
-      "senior": [15, 28],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        9,
+        15
+      ],
+      "senior": [
+        15,
+        28
+      ],
       "note": "汽车、新能源、医疗器械偏高，小厂和质量体系不健全的厂偏低；估算值，不是官方统计"
     },
     "growth": [
@@ -869,7 +1415,11 @@
         ]
       }
     ],
-    "adjacent": ["process-eng", "mechanical-design", "procurement"],
+    "adjacent": [
+      "process-eng",
+      "mechanical-design",
+      "procurement"
+    ],
     "reality": "质量岗最容易背锅：出货出问题，销售说你没卡住，生产说你太较真，最后写报告的只有你；很多厂质量部门没实权，发现问题只能「建议」，人家不改也没办法；客户审核前全员补记录，你要么跟着做，要么得罪一圈人。原则性太强又不擅长扯皮的人，会很难受。"
   }
 ]

@@ -748,5 +748,755 @@
     "id": "chef",
     "name": "厨师",
     "track": "公共服务/其他"
+  },
+  {
+    "id": "barista",
+    "name": "咖啡师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "bartender",
+    "name": "调酒师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "baker",
+    "name": "烘焙师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "pastry-chef",
+    "name": "面点师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "waiter",
+    "name": "餐厅服务员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "tea-artist",
+    "name": "茶艺师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "banquet-exec",
+    "name": "宴会执行",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "housekeeper",
+    "name": "客房服务员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "tour-operator",
+    "name": "旅游计调",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "flight-attendant",
+    "name": "空乘",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "train-attendant",
+    "name": "高铁乘务员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "airport-ground",
+    "name": "机场地勤",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "hairstylist",
+    "name": "美发师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "beautician",
+    "name": "美容师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "manicurist",
+    "name": "美甲师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "makeup-artist",
+    "name": "化妆师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "fitness-coach",
+    "name": "健身教练",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "yoga-coach",
+    "name": "瑜伽教练",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "massage-therapist",
+    "name": "推拿理疗师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "pet-groomer",
+    "name": "宠物美容师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "store-manager",
+    "name": "店长",
+    "track": "销售/商务"
+  },
+  {
+    "id": "cashier-clerk",
+    "name": "收银员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "visual-merchandiser",
+    "name": "陈列师",
+    "track": "运营/市场"
+  },
+  {
+    "id": "auto-sales",
+    "name": "汽车销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "used-car-appraiser",
+    "name": "二手车评估师",
+    "track": "销售/商务"
+  },
+  {
+    "id": "jewelry-sales",
+    "name": "珠宝销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "luxury-sales",
+    "name": "奢侈品销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "insurance-broker",
+    "name": "保险经纪人",
+    "track": "金融"
+  },
+  {
+    "id": "hotel-front-desk",
+    "name": "酒店前台",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "warehouse-keeper",
+    "name": "仓储管理员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "logistics-dispatcher",
+    "name": "物流调度",
+    "track": "销售/商务"
+  },
+  {
+    "id": "truck-driver",
+    "name": "货车司机",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "forklift-driver",
+    "name": "叉车司机",
+    "track": "制造/工程"
+  },
+  {
+    "id": "customs-broker",
+    "name": "报关员",
+    "track": "销售/商务"
+  },
+  {
+    "id": "express-station-mgr",
+    "name": "快递站点管理",
+    "track": "销售/商务"
+  },
+  {
+    "id": "cold-chain-ops",
+    "name": "冷链运营",
+    "track": "销售/商务"
+  },
+  {
+    "id": "drone-pilot",
+    "name": "无人机飞手",
+    "track": "制造/工程"
+  },
+  {
+    "id": "property-manager",
+    "name": "物业管家",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "elevator-tech",
+    "name": "电梯维保",
+    "track": "制造/工程"
+  },
+  {
+    "id": "plumber",
+    "name": "水电工",
+    "track": "制造/工程"
+  },
+  {
+    "id": "hvac-tech",
+    "name": "空调安装维修",
+    "track": "制造/工程"
+  },
+  {
+    "id": "fire-operator",
+    "name": "消防设施操作员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "safety-assessor",
+    "name": "安全评价师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "landscape-gardener",
+    "name": "园林绿化",
+    "track": "制造/工程"
+  },
+  {
+    "id": "electrician",
+    "name": "电工",
+    "track": "制造/工程"
+  },
+  {
+    "id": "fitter",
+    "name": "钳工",
+    "track": "制造/工程"
+  },
+  {
+    "id": "lathe-operator",
+    "name": "车工",
+    "track": "制造/工程"
+  },
+  {
+    "id": "stamping-operator",
+    "name": "冲压工",
+    "track": "制造/工程"
+  },
+  {
+    "id": "injection-tech",
+    "name": "注塑工艺",
+    "track": "制造/工程"
+  },
+  {
+    "id": "line-leader",
+    "name": "生产班长",
+    "track": "制造/工程"
+  },
+  {
+    "id": "robot-debug",
+    "name": "机器人调试",
+    "track": "制造/工程"
+  },
+  {
+    "id": "electrical-assembler",
+    "name": "电气装配",
+    "track": "制造/工程"
+  },
+  {
+    "id": "iqc-inspector",
+    "name": "来料检验",
+    "track": "制造/工程"
+  },
+  {
+    "id": "die-casting-tech",
+    "name": "压铸工艺",
+    "track": "制造/工程"
+  },
+  {
+    "id": "heat-treatment",
+    "name": "热处理",
+    "track": "制造/工程"
+  },
+  {
+    "id": "surface-treatment",
+    "name": "表面处理",
+    "track": "制造/工程"
+  },
+  {
+    "id": "auto-mechanic",
+    "name": "汽车维修工",
+    "track": "制造/工程"
+  },
+  {
+    "id": "nev-tech",
+    "name": "新能源汽车维修",
+    "track": "制造/工程"
+  },
+  {
+    "id": "auto-detailing",
+    "name": "汽车美容",
+    "track": "制造/工程"
+  },
+  {
+    "id": "auto-body",
+    "name": "汽车钣金喷漆",
+    "track": "制造/工程"
+  },
+  {
+    "id": "auto-parts-sales",
+    "name": "汽配销售",
+    "track": "销售/商务"
+  },
+  {
+    "id": "midwife",
+    "name": "助产士",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "tuina-therapist",
+    "name": "中医推拿师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "optometrist",
+    "name": "眼视光师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "dental-tech",
+    "name": "义齿技师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "medical-equipment-tech",
+    "name": "医疗器械维修",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "public-health",
+    "name": "公共卫生医师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "pharmacy-clerk",
+    "name": "药店店员",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "health-care-manager",
+    "name": "健康照护师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "sports-rehab",
+    "name": "运动康复师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "speech-therapist",
+    "name": "言语治疗师",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "medical-writer",
+    "name": "医学写作",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "cro",
+    "name": "临床研究协调员",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "regulatory-affairs",
+    "name": "注册专员",
+    "track": "医疗/健康"
+  },
+  {
+    "id": "childcare-worker",
+    "name": "保育员",
+    "track": "教育"
+  },
+  {
+    "id": "early-ed-teacher",
+    "name": "早教老师",
+    "track": "教育"
+  },
+  {
+    "id": "after-school-tutor",
+    "name": "托管老师",
+    "track": "教育"
+  },
+  {
+    "id": "coding-teacher",
+    "name": "编程老师",
+    "track": "教育"
+  },
+  {
+    "id": "english-teacher",
+    "name": "英语老师",
+    "track": "教育"
+  },
+  {
+    "id": "admissions-consultant",
+    "name": "招生顾问",
+    "track": "教育"
+  },
+  {
+    "id": "study-abroad-writer",
+    "name": "留学文书",
+    "track": "教育"
+  },
+  {
+    "id": "edu-product-manager",
+    "name": "教育产品经理",
+    "track": "教育"
+  },
+  {
+    "id": "teaching-researcher",
+    "name": "教研员",
+    "track": "教育"
+  },
+  {
+    "id": "librarian",
+    "name": "图书馆员",
+    "track": "教育"
+  },
+  {
+    "id": "pentester",
+    "name": "渗透测试工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "data-labeler",
+    "name": "数据标注员",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "ai-trainer",
+    "name": "AI 训练师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "mlops-engineer",
+    "name": "MLOps 工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "av-dev",
+    "name": "音视频开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "test-dev",
+    "name": "测试开发工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "tech-artist",
+    "name": "技术美术",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "game-ops",
+    "name": "游戏运营",
+    "track": "运营/市场"
+  },
+  {
+    "id": "game-numerical",
+    "name": "游戏数值策划",
+    "track": "产品/设计"
+  },
+  {
+    "id": "user-growth",
+    "name": "用户增长",
+    "track": "运营/市场"
+  },
+  {
+    "id": "rpa-engineer",
+    "name": "RPA 工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "low-code-impl",
+    "name": "低代码实施顾问",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "solution-architect",
+    "name": "解决方案架构师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "data-viz-engineer",
+    "name": "数据可视化工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "prompt-engineer",
+    "name": "提示词工程师",
+    "track": "互联网/软件"
+  },
+  {
+    "id": "insurance-underwriter",
+    "name": "保险核保",
+    "track": "金融"
+  },
+  {
+    "id": "securities-broker",
+    "name": "证券经纪人",
+    "track": "金融"
+  },
+  {
+    "id": "fund-sales",
+    "name": "基金销售",
+    "track": "金融"
+  },
+  {
+    "id": "payment-ops",
+    "name": "支付运营",
+    "track": "金融"
+  },
+  {
+    "id": "consumer-risk",
+    "name": "消费金融风控",
+    "track": "金融"
+  },
+  {
+    "id": "collector",
+    "name": "催收专员",
+    "track": "金融"
+  },
+  {
+    "id": "ir-manager",
+    "name": "投资者关系",
+    "track": "金融"
+  },
+  {
+    "id": "trust-officer",
+    "name": "信托经理",
+    "track": "金融"
+  },
+  {
+    "id": "executive-assistant",
+    "name": "总经理助理",
+    "track": "职能/财务"
+  },
+  {
+    "id": "government-affairs",
+    "name": "政府事务",
+    "track": "职能/财务"
+  },
+  {
+    "id": "party-affairs",
+    "name": "党务专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "union-officer",
+    "name": "工会干事",
+    "track": "职能/财务"
+  },
+  {
+    "id": "patent-agent",
+    "name": "专利代理师",
+    "track": "职能/财务"
+  },
+  {
+    "id": "trademark-agent",
+    "name": "商标代理人",
+    "track": "职能/财务"
+  },
+  {
+    "id": "contract-admin",
+    "name": "合同管理",
+    "track": "职能/财务"
+  },
+  {
+    "id": "esg-specialist",
+    "name": "ESG 专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "hrbp",
+    "name": "HRBP",
+    "track": "职能/财务"
+  },
+  {
+    "id": "training-officer",
+    "name": "培训主管",
+    "track": "职能/财务"
+  },
+  {
+    "id": "office-manager",
+    "name": "行政主管",
+    "track": "职能/财务"
+  },
+  {
+    "id": "it-auditor",
+    "name": "IT 审计",
+    "track": "职能/财务"
+  },
+  {
+    "id": "trade-compliance",
+    "name": "贸易合规",
+    "track": "职能/财务"
+  },
+  {
+    "id": "data-compliance",
+    "name": "数据合规专员",
+    "track": "职能/财务"
+  },
+  {
+    "id": "retoucher",
+    "name": "修图师",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "director",
+    "name": "导演",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "producer",
+    "name": "制片人",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "script-supervisor",
+    "name": "场记",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "lighting-tech",
+    "name": "灯光师",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "sound-recordist",
+    "name": "录音师",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "host",
+    "name": "主持人",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "podcast-producer",
+    "name": "播客制作",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "content-moderator",
+    "name": "内容审核员",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "copyright-ops",
+    "name": "版权运营",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "simultaneous-interpreter",
+    "name": "同声传译",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "localization-specialist",
+    "name": "本地化专员",
+    "track": "传媒/内容"
+  },
+  {
+    "id": "auxiliary-police",
+    "name": "辅警",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "urban-management",
+    "name": "城管",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "notary",
+    "name": "公证员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "forensic-appraiser",
+    "name": "司法鉴定人",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "funeral-director",
+    "name": "殡葬礼仪师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "charity-officer",
+    "name": "慈善项目专员",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "nursing-home-manager",
+    "name": "养老院院长",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "lawyer",
+    "name": "律师",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "sign-language-interpreter",
+    "name": "手语翻译",
+    "track": "公共服务/其他"
+  },
+  {
+    "id": "agronomist",
+    "name": "农艺师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "horticulturist",
+    "name": "园艺师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "livestock-tech",
+    "name": "畜牧技术员",
+    "track": "制造/工程"
+  },
+  {
+    "id": "agri-ecommerce",
+    "name": "农产品电商",
+    "track": "运营/市场"
+  },
+  {
+    "id": "farm-manager",
+    "name": "家庭农场主",
+    "track": "制造/工程"
+  },
+  {
+    "id": "supply-planner",
+    "name": "供应链计划",
+    "track": "制造/工程"
+  },
+  {
+    "id": "energy-manager",
+    "name": "能源管理师",
+    "track": "制造/工程"
+  },
+  {
+    "id": "wedding-planner",
+    "name": "婚礼策划",
+    "track": "运营/市场"
   }
 ]

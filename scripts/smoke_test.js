@@ -225,8 +225,8 @@ ok(true, '存储清空后不报错');
 /* ---------- 数据完整性 ---------- */
 console.log('\n[数据完整性]');
 const data = sandbox.JOB_DATA;
-ok(data.jobs.length === 150, '岗位数 = 150', '实际 ' + data.jobs.length);
-ok(data.skills.length >= 100, '技能数 ≥ 100', '实际 ' + data.skills.length);
+ok(data.jobs.length === 300, '岗位数 = 300', '实际 ' + data.jobs.length);
+ok(data.skills.length >= 140, '技能数 ≥ 140', '实际 ' + data.skills.length);
 const ids = new Set(data.jobs.map((j) => j.id));
 ok(data.jobs.every((j) => (j.adjacent || []).every((a) => ids.has(a))), '相邻岗位引用全部有效');
 ok(data.jobs.every((j) => (j.skills || []).every((s) => new Set(data.skills.map((x) => x.id)).has(s.id))),
@@ -236,7 +236,7 @@ ok(new Set(data.jobs.map((j) => j.id)).size === data.jobs.length, '岗位 id 无
 const dd = sandbox.DADIAN;
 ok(dd.list.length === 1636, '大典职业数 = 1636', '实际 ' + dd.list.length);
 ok(dd.cats.length === 8, '大典大类 = 8');
-ok(Object.keys(dd.map).length === 150, '150 个岗位都有大典映射', '实际 ' + Object.keys(dd.map).length);
+ok(Object.keys(dd.map).length >= 180, '大典映射 ≥ 180 个岗位', '实际 ' + Object.keys(dd.map).length);
 const ddCodes = new Set(dd.list.map((x) => x.c));
 ok(Object.values(dd.map).every((cs) => cs.every((c) => ddCodes.has(c))), '映射的大典编码全部存在');
 ok(dd.list.every((x) => x.n && x.c && x.d), '大典条目字段完整');

@@ -236,20 +236,57 @@ def main() -> int:
         print("映射里出现了不存在的大典编码：", bad)
         return 1
 
+    # ---- 自动匹配：没写人工映射的岗位，用「同名 / 别名 / 唯一包含」去撞大典职业 ----
+    by_name = {}
+    for o in out:
+        by_name.setdefault(o["n"], []).append(o["c"])
+
+    aliases = {}
+    for f in (ROOT / "data" / "jobs").glob("*.json"):
+        try:
+            for j in json.loads(f.read_text(encoding="utf-8")):
+                aliases[j["id"]] = j.get("aliases") or []
+        except (json.JSONDecodeError, KeyError):
+            continue
+
+    catalog = json.loads((ROOT / "data" / "catalog.json").read_text(encoding="utf-8"))
+    auto = {}
+    for row in catalog:
+        jid = row["id"]
+        if jid in JOB_MAP:
+            continue
+        cand = set()
+        for n in [row["name"]] + aliases.get(jid, []):
+            if not n:
+                continue
+            if n in by_name:
+                cand.update(by_name[n])
+                continue
+            if len(n) < 3:
+                continue
+            hits = [c for nm, cs in by_name.items() if (n in nm or nm in n) for c in cs]
+            if len(hits) == 1:
+                cand.update(hits)
+        if len(cand) == 1:
+            auto[jid] = sorted(cand)
+
+    merged = dict(JOB_MAP)
+    merged.update(auto)
+
     cats = []
     for x in raw:
         if len(x["sn"].split("-")) == 1:
             n = sum(1 for o in out if o["c"].startswith(x["sn"] + "-"))
             cats.append({"code": x["sn"], "name": x["name"], "count": n})
 
-    payload = {"list": out, "map": JOB_MAP, "cats": cats}
+    payload = {"list": out, "map": merged, "auto": sorted(auto), "cats": cats}
     (APP / "dadian.js").write_text(
         "window.DADIAN = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n",
         encoding="utf-8",
     )
 
     size = (APP / "dadian.js").stat().st_size / 1024
-    print(f"OK  {len(out)} 个职业, {len(cats)} 个大类, {len(JOB_MAP)} 个岗位映射")
+    print(f"OK  {len(out)} 个职业, {len(cats)} 个大类, 人工映射 {len(JOB_MAP)} + 自动 {len(auto)} = {len(merged)}")
     print(f"    app/dadian.js {size:.0f} KB")
     for c in cats:
         print(f"    {c['code']} {c['name']} ({c['count']})")

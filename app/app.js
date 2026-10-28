@@ -29,6 +29,8 @@
       (DD_JOBS[c] = DD_JOBS[c] || []).push(jid);
     });
   });
+  var DD_AUTO = {};
+  (DD.auto || []).forEach(function (jid) { DD_AUTO[jid] = 1; });
   var DD_TOTAL = DD.list.length;
 
   var TRACK_ICON = {
@@ -57,7 +59,7 @@
 
   var state = {
     view: 'home', jobId: null, q: '', mode: 'job', track: '全部', step: 0,
-    dq: '', dcat: '全部', ddLimit: 40
+    dq: '', dcat: '全部', ddLimit: 40, jobsLimit: 60
   };
 
   /* ---------------- 小工具 ---------------- */
@@ -723,7 +725,7 @@
       s += '<div class="section"><div class="section-hd"><h2>国家职业分类里，它叫</h2></div><div class="card">' +
         '<a href="#/dadian/' + ddItem.c + '" style="display:block;color:inherit;text-decoration:none">' +
         '<b style="font-size:15.5px">' + esc(ddItem.n) + (ddItem.tag ? ' <span class="ddtag' + (ddItem.tag.charAt(0) === 'L' ? ' l' : '') + '">' + ddItem.tag + '</span>' : '') + '</b>' +
-        '<div class="tiny muted" style="margin-top:3px">' + ddItem.c + ' · ' + esc(ddItem.big) + ' › ' + esc(ddItem.small) + '</div>' +
+        '<div class="tiny muted" style="margin-top:3px">' + ddItem.c + ' · ' + esc(ddItem.big) + ' › ' + esc(ddItem.small) + (DD_AUTO[j.id] ? ' · 自动匹配' : '') + '</div>' +
         '<p class="desc" style="margin-top:8px;font-size:13.5px">' + esc(intro) + '</p>' +
         '<span class="chip sm" style="margin-top:10px">查看大典原文 ›</span>' +
         '</a>' +
@@ -760,7 +762,8 @@
       s += '<div class="empty">' + (state.track === '收藏' ? '还没收藏岗位。进岗位详情点右上角的 ☆。' : '这个方向暂时没有岗位。') + '</div>';
     }
 
-    list.forEach(function (j) {
+    var shown = list.slice(0, state.jobsLimit || 60);
+    shown.forEach(function (j) {
       var p = profile ? scoreJob(j, profile) : null;
       s += '<a class="jobcard" href="#/job/' + j.id + '">' +
         '<div class="top"><div style="flex:1;min-width:0">' +
@@ -772,6 +775,9 @@
         '<div class="foot">' + (j.salary ? '<span class="chip tag">入门 ' + kRange(j.salary.junior) + '</span>' : '') +
         '<span class="chip tag">' + (j.skills || []).length + ' 项技能</span></div></a>';
     });
+    if (list.length > shown.length) {
+      s += '<button class="btn ghost" style="margin-top:12px" data-act="jobsmore">再看 60 个（还有 ' + (list.length - shown.length) + ' 个）</button>';
+    }
     s += '</div>';
     return s;
   }
@@ -1118,6 +1124,13 @@
 
     if (act === 'track') {
       state.track = b.getAttribute('data-t');
+      state.jobsLimit = 60;
+      route();
+      return;
+    }
+
+    if (act === 'jobsmore') {
+      state.jobsLimit = (state.jobsLimit || 60) + 60;
       route();
       return;
     }

@@ -2,7 +2,11 @@
   {
     "id": "internal-control",
     "name": "内控专员",
-    "aliases": ["内控", "内控内审", "内部控制专员"],
+    "aliases": [
+      "内控",
+      "内控内审",
+      "内部控制专员"
+    ],
     "track": "职能/财务",
     "tagline": "盯着公司流程里的漏洞，写制度、查执行、催整改",
     "daily": [
@@ -13,22 +17,61 @@
       "下午约业务部门谈整改，对方说忙，只能再约下周"
     ],
     "friendly": "中",
-    "majors": ["会计学", "审计学", "财务管理", "法学", "工商管理"],
+    "majors": [
+      "会计学",
+      "审计学",
+      "财务管理",
+      "法学",
+      "工商管理"
+    ],
     "skills": [
-      { "id": "audit", "w": 3 },
-      { "id": "compliance", "w": 3 },
-      { "id": "detail", "w": 3 },
-      { "id": "accounting", "w": 2 },
-      { "id": "excel", "w": 2 },
-      { "id": "law", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "writing", "w": 1 }
+      {
+        "id": "audit",
+        "w": 3
+      },
+      {
+        "id": "compliance",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 3
+      },
+      {
+        "id": "accounting",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 2
+      },
+      {
+        "id": "law",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "writing",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [6, 10],
-      "mid": [10, 18],
-      "senior": [18, 30],
+      "junior": [
+        6,
+        10
+      ],
+      "mid": [
+        10,
+        18
+      ],
+      "senior": [
+        18,
+        30
+      ],
       "note": "一线/新一线城市参考区间，国企和制造业偏低、金融与互联网偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -66,13 +109,22 @@
         ]
       }
     ],
-    "adjacent": ["auditor", "compliance", "accountant", "fpa-analyst"],
+    "adjacent": [
+      "auditor",
+      "compliance",
+      "accountant",
+      "fpa-analyst"
+    ],
     "reality": "你的活儿是给人挑错，业务部门见你就防着，觉得你在凭空加工作量。报告交上去常常没下文，整改推不动；真出了事，又要你证明「我早就提醒过」。"
   },
   {
     "id": "wealth-manager",
     "name": "理财经理",
-    "aliases": ["财富管理顾问", "理财顾问", "银行理财经理"],
+    "aliases": [
+      "财富管理顾问",
+      "理财顾问",
+      "银行理财经理"
+    ],
     "track": "金融",
     "tagline": "替客户管钱、卖产品，也背着一堆按月结算的指标",
     "daily": [
@@ -83,22 +135,62 @@
       "下班前补双录、录系统，本周还差三个客户没拜访"
     ],
     "friendly": "中",
-    "majors": ["金融学", "经济学", "投资学", "会计学", "国际经济与贸易", "统计学"],
+    "majors": [
+      "金融学",
+      "经济学",
+      "投资学",
+      "会计学",
+      "国际经济与贸易",
+      "统计学"
+    ],
     "skills": [
-      { "id": "sales", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "business_sense", "w": 2 },
-      { "id": "market_research", "w": 2 },
-      { "id": "excel", "w": 2 },
-      { "id": "compliance", "w": 2 },
-      { "id": "service_mind", "w": 2 },
-      { "id": "pressure", "w": 2 }
+      {
+        "id": "sales",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "business_sense",
+        "w": 2
+      },
+      {
+        "id": "market_research",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 2
+      },
+      {
+        "id": "compliance",
+        "w": 2
+      },
+      {
+        "id": "service_mind",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [6, 12],
-      "mid": [12, 25],
-      "senior": [25, 60],
+      "junior": [
+        6,
+        12
+      ],
+      "mid": [
+        12,
+        25
+      ],
+      "senior": [
+        25,
+        60
+      ],
       "note": "一线/新一线城市参考区间，含绩效提成，股份制银行和头部券商偏高、国有行网点偏低；估算值，不是官方统计"
     },
     "growth": [
@@ -136,13 +228,22 @@
         ]
       }
     ],
-    "adjacent": ["bank-teller", "insurance-advisor", "research-assistant", "customer-success"],
+    "adjacent": [
+      "bank-teller",
+      "insurance-advisor",
+      "research-assistant",
+      "customer-success"
+    ],
     "reality": "指标按月压：拉来的资产规模、中间业务收入、开户数，完不成扣绩效、排名贴墙上。客户亏钱第一个骂你，赚钱是他眼光好；卖产品的手和良心经常打架。"
   },
   {
     "id": "fund-ops",
     "name": "基金运营",
-    "aliases": ["基金运营专员", "基金估值", "份额登记"],
+    "aliases": [
+      "基金运营专员",
+      "基金估值",
+      "份额登记"
+    ],
     "track": "金融",
     "tagline": "基金背后的账房，估值、对账、披露都归你管",
     "daily": [
@@ -153,22 +254,62 @@
       "临下班接到通知：明天有只新基金成立，要开账户、配参数"
     ],
     "friendly": "中",
-    "majors": ["金融学", "会计学", "财务管理", "经济学", "统计学", "信息管理与信息系统"],
+    "majors": [
+      "金融学",
+      "会计学",
+      "财务管理",
+      "经济学",
+      "统计学",
+      "信息管理与信息系统"
+    ],
     "skills": [
-      { "id": "accounting", "w": 3 },
-      { "id": "excel", "w": 3 },
-      { "id": "detail", "w": 3 },
-      { "id": "data_analysis", "w": 2 },
-      { "id": "compliance", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "sql", "w": 1 }
+      {
+        "id": "accounting",
+        "w": 3
+      },
+      {
+        "id": "excel",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 3
+      },
+      {
+        "id": "data_analysis",
+        "w": 2
+      },
+      {
+        "id": "compliance",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "sql",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [7, 12],
-      "mid": [12, 20],
-      "senior": [20, 35],
+      "junior": [
+        7,
+        12
+      ],
+      "mid": [
+        12,
+        20
+      ],
+      "senior": [
+        20,
+        35
+      ],
       "note": "一线/新一线城市参考区间，公募基金和托管行偏高、小型私募偏低；估算值，不是官方统计"
     },
     "growth": [
@@ -206,13 +347,22 @@
         ]
       }
     ],
-    "adjacent": ["accountant", "auditor", "credit-risk", "fpa-analyst"],
+    "adjacent": [
+      "accountant",
+      "auditor",
+      "credit-risk",
+      "fpa-analyst"
+    ],
     "reality": "每天跟数字和截止时间赛跑，净值晚披露一分钟就是事故。工作高度流程化，做三年可能还在对同样的表；出错就是全公司的错，压力不小，存在感却很低。"
   },
   {
     "id": "ib-analyst",
     "name": "投行分析师",
-    "aliases": ["投行承做", "IBD 分析师", "投行项目组"],
+    "aliases": [
+      "投行承做",
+      "IBD 分析师",
+      "投行项目组"
+    ],
     "track": "金融",
     "tagline": "做材料、搭模型、熬夜，把一家公司包装成能卖的样子",
     "daily": [
@@ -223,23 +373,66 @@
       "凌晨把材料打印装订，第二天一早要送去给发行人"
     ],
     "friendly": "低",
-    "majors": ["金融学", "经济学", "会计学", "财务管理", "数学与应用数学", "法学"],
+    "majors": [
+      "金融学",
+      "经济学",
+      "会计学",
+      "财务管理",
+      "数学与应用数学",
+      "法学"
+    ],
     "skills": [
-      { "id": "spreadsheet_model", "w": 3 },
-      { "id": "accounting", "w": 3 },
-      { "id": "excel", "w": 3 },
-      { "id": "presentation", "w": 3 },
-      { "id": "writing", "w": 2 },
-      { "id": "law", "w": 2 },
-      { "id": "pressure", "w": 3 },
-      { "id": "detail", "w": 2 },
-      { "id": "communication", "w": 1 }
+      {
+        "id": "spreadsheet_model",
+        "w": 3
+      },
+      {
+        "id": "accounting",
+        "w": 3
+      },
+      {
+        "id": "excel",
+        "w": 3
+      },
+      {
+        "id": "presentation",
+        "w": 3
+      },
+      {
+        "id": "writing",
+        "w": 2
+      },
+      {
+        "id": "law",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [12, 25],
-      "mid": [25, 50],
-      "senior": [50, 100],
+      "junior": [
+        12,
+        25
+      ],
+      "mid": [
+        25,
+        50
+      ],
+      "senior": [
+        50,
+        100
+      ],
       "note": "一线城市参考区间，头部券商和外资行偏高，中小券商项目少时奖金差很多；估算值，不是官方统计"
     },
     "growth": [
@@ -277,13 +470,22 @@
         ]
       }
     ],
-    "adjacent": ["research-assistant", "fpa-analyst", "auditor", "credit-risk"],
+    "adjacent": [
+      "research-assistant",
+      "fpa-analyst",
+      "auditor",
+      "credit-risk"
+    ],
     "reality": "忙起来一周 80–100 小时，凌晨两点的办公室是常态，项目在外地就得驻场几周。大量工作是排版、对数、改格式，不是电视里那种谈笑间定乾坤。名额少、卡本科学校，硕士基本是起步。"
   },
   {
     "id": "claims-adjuster",
     "name": "保险理赔员",
-    "aliases": ["查勘定损员", "理赔查勘", "车险理赔"],
+    "aliases": [
+      "查勘定损员",
+      "理赔查勘",
+      "车险理赔"
+    ],
     "track": "金融",
     "tagline": "出险之后到现场，判断这笔赔不赔、赔多少",
     "daily": [
@@ -294,23 +496,66 @@
       "遇到疑似骗保的案子，把材料整理好移交给调查岗"
     ],
     "friendly": "高",
-    "majors": ["保险学", "金融学", "法学", "汽车服务工程", "交通运输", "临床医学"],
+    "majors": [
+      "保险学",
+      "金融学",
+      "法学",
+      "汽车服务工程",
+      "交通运输",
+      "临床医学"
+    ],
     "skills": [
-      { "id": "communication", "w": 3 },
-      { "id": "detail", "w": 3 },
-      { "id": "pressure", "w": 3 },
-      { "id": "law", "w": 2 },
-      { "id": "customer_success", "w": 2 },
-      { "id": "excel", "w": 2 },
-      { "id": "problem_solving", "w": 2 },
-      { "id": "driving", "w": 2 },
-      { "id": "medical", "w": 1 }
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 3
+      },
+      {
+        "id": "pressure",
+        "w": 3
+      },
+      {
+        "id": "law",
+        "w": 2
+      },
+      {
+        "id": "customer_success",
+        "w": 2
+      },
+      {
+        "id": "excel",
+        "w": 2
+      },
+      {
+        "id": "problem_solving",
+        "w": 2
+      },
+      {
+        "id": "driving",
+        "w": 2
+      },
+      {
+        "id": "medical",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [8, 15],
-      "senior": [15, 25],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        8,
+        15
+      ],
+      "senior": [
+        15,
+        25
+      ],
       "note": "一线/新一线城市参考区间，含查勘补贴和绩效，大案岗和人伤岗偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -348,13 +593,22 @@
         ]
       }
     ],
-    "adjacent": ["insurance-advisor", "bank-teller", "credit-risk", "customer-service"],
+    "adjacent": [
+      "insurance-advisor",
+      "bank-teller",
+      "credit-risk",
+      "customer-service"
+    ],
     "reality": "半夜出险也得往现场赶，雨天和节假日案子最多。拒赔的时候客户能跟你耗一下午，挨骂是日常；赔多了公司查你，赔少了客户投诉你。定损价和修理厂永远谈不拢。"
   },
   {
     "id": "kindergarten-teacher",
     "name": "幼儿园教师",
-    "aliases": ["幼师", "幼儿园老师", "带班老师"],
+    "aliases": [
+      "幼师",
+      "幼儿园老师",
+      "带班老师"
+    ],
     "track": "教育",
     "tagline": "带二三十个小孩，从早上接园忙到下午交到家长手里",
     "daily": [
@@ -365,22 +619,61 @@
       "放学交接时要跟奶奶说清孩子今天磕了一下膝盖"
     ],
     "friendly": "中",
-    "majors": ["学前教育", "早期教育", "音乐学", "美术学", "心理学"],
+    "majors": [
+      "学前教育",
+      "早期教育",
+      "音乐学",
+      "美术学",
+      "心理学"
+    ],
     "skills": [
-      { "id": "childcare", "w": 3 },
-      { "id": "teaching", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "empathy", "w": 2 },
-      { "id": "creativity", "w": 2 },
-      { "id": "psychology", "w": 2 },
-      { "id": "first_aid", "w": 2 },
-      { "id": "admin", "w": 1 }
+      {
+        "id": "childcare",
+        "w": 3
+      },
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "empathy",
+        "w": 2
+      },
+      {
+        "id": "creativity",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 2
+      },
+      {
+        "id": "first_aid",
+        "w": 2
+      },
+      {
+        "id": "admin",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [3.5, 6],
-      "mid": [5, 9],
-      "senior": [8, 15],
+      "junior": [
+        3.5,
+        6
+      ],
+      "mid": [
+        5,
+        9
+      ],
+      "senior": [
+        8,
+        15
+      ],
       "note": "一线/新一线城市参考区间，编制内外差距很大，民办园和普惠园偏低；估算值，不是官方统计"
     },
     "growth": [
@@ -418,13 +711,22 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "special-ed-teacher", "tutor", "edu-consultant"],
+    "adjacent": [
+      "teacher",
+      "special-ed-teacher",
+      "tutor",
+      "edu-consultant"
+    ],
     "reality": "一天下来几乎没坐过，嗓子常年是哑的。孩子磕了碰了，家长第一个找你；写观察记录、做环创、迎检查常常带回家做。非编和编制同工不同酬，考几年考不上是常事。"
   },
   {
     "id": "special-ed-teacher",
     "name": "特教教师",
-    "aliases": ["特教老师", "特殊教育教师", "个训老师"],
+    "aliases": [
+      "特教老师",
+      "特殊教育教师",
+      "个训老师"
+    ],
     "track": "教育",
     "tagline": "教一群需要更多耐心的小孩，一节课可能只学会一个动作",
     "daily": [
@@ -435,22 +737,61 @@
       "下午被学生抓了一把，处理完伤口继续把课上完"
     ],
     "friendly": "中",
-    "majors": ["特殊教育", "教育康复学", "心理学", "学前教育", "康复治疗学"],
+    "majors": [
+      "特殊教育",
+      "教育康复学",
+      "心理学",
+      "学前教育",
+      "康复治疗学"
+    ],
     "skills": [
-      { "id": "teaching", "w": 3 },
-      { "id": "empathy", "w": 3 },
-      { "id": "psychology", "w": 3 },
-      { "id": "detail", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "curriculum", "w": 2 },
-      { "id": "first_aid", "w": 2 },
-      { "id": "rehab", "w": 2 }
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "empathy",
+        "w": 3
+      },
+      {
+        "id": "psychology",
+        "w": 3
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "curriculum",
+        "w": 2
+      },
+      {
+        "id": "first_aid",
+        "w": 2
+      },
+      {
+        "id": "rehab",
+        "w": 2
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 7],
-      "mid": [6, 11],
-      "senior": [10, 18],
+      "junior": [
+        4,
+        7
+      ],
+      "mid": [
+        6,
+        11
+      ],
+      "senior": [
+        10,
+        18
+      ],
       "note": "一线/新一线城市参考区间，特教学校编制岗和民办康复机构差距大，编制岗有特教津贴；估算值，不是官方统计"
     },
     "growth": [
@@ -488,13 +829,22 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "kindergarten-teacher", "psych-counselor", "rehab-therapist"],
+    "adjacent": [
+      "teacher",
+      "kindergarten-teacher",
+      "psych-counselor",
+      "rehab-therapist"
+    ],
     "reality": "情绪消耗比体力消耗大：同一句话要重复几十遍，学生可能打人、自伤，家长把全部希望压在你身上。特教编制少，很多岗位在民办机构，工资不高、流动快。"
   },
   {
     "id": "college-counselor",
     "name": "高校辅导员",
-    "aliases": ["辅导员", "思政辅导员", "学生工作干部"],
+    "aliases": [
+      "辅导员",
+      "思政辅导员",
+      "学生工作干部"
+    ],
     "track": "教育",
     "tagline": "管一个年级几百号学生，手机 24 小时不能关",
     "daily": [
@@ -505,22 +855,62 @@
       "晚上十点学生说室友失恋要跳楼，穿衣服往学校赶"
     ],
     "friendly": "低",
-    "majors": ["思想政治教育", "教育学", "心理学", "汉语言文学", "社会学", "公共事业管理"],
+    "majors": [
+      "思想政治教育",
+      "教育学",
+      "心理学",
+      "汉语言文学",
+      "社会学",
+      "公共事业管理"
+    ],
     "skills": [
-      { "id": "communication", "w": 3 },
-      { "id": "psychology", "w": 3 },
-      { "id": "empathy", "w": 3 },
-      { "id": "pressure", "w": 3 },
-      { "id": "admin", "w": 2 },
-      { "id": "teaching", "w": 2 },
-      { "id": "writing", "w": 2 },
-      { "id": "project_management", "w": 2 }
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "psychology",
+        "w": 3
+      },
+      {
+        "id": "empathy",
+        "w": 3
+      },
+      {
+        "id": "pressure",
+        "w": 3
+      },
+      {
+        "id": "admin",
+        "w": 2
+      },
+      {
+        "id": "teaching",
+        "w": 2
+      },
+      {
+        "id": "writing",
+        "w": 2
+      },
+      {
+        "id": "project_management",
+        "w": 2
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 9],
-      "mid": [8, 14],
-      "senior": [12, 22],
+      "junior": [
+        5,
+        9
+      ],
+      "mid": [
+        8,
+        14
+      ],
+      "senior": [
+        12,
+        22
+      ],
       "note": "一线/新一线城市参考区间，以编制内为主，地区和学校差距大，含绩效与住宿补贴；估算值，不是官方统计"
     },
     "growth": [
@@ -558,13 +948,22 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "civil-servant", "psych-counselor", "social-worker"],
+    "adjacent": [
+      "teacher",
+      "civil-servant",
+      "psych-counselor",
+      "social-worker"
+    ],
     "reality": "手机 24 小时开机，半夜学生出事你得第一个到。评奖评优、助学贷款、宿舍矛盾、心理危机全归你，出事第一个被追责。住校值班、周末加班是常态，寒暑假常被培训和招生切掉一半。"
   },
   {
     "id": "tutor",
     "name": "课外辅导老师",
-    "aliases": ["家教", "一对一辅导老师", "补课老师"],
+    "aliases": [
+      "家教",
+      "一对一辅导老师",
+      "补课老师"
+    ],
     "track": "教育",
     "tagline": "一对一或小班补课，按课时挣钱，也按续费活着",
     "daily": [
@@ -575,22 +974,62 @@
       "月底排下月课表，续费没谈下来的学生就从表上消失了"
     ],
     "friendly": "中",
-    "majors": ["数学与应用数学", "汉语言文学", "英语", "物理学", "化学", "小学教育"],
+    "majors": [
+      "数学与应用数学",
+      "汉语言文学",
+      "英语",
+      "物理学",
+      "化学",
+      "小学教育"
+    ],
     "skills": [
-      { "id": "teaching", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "curriculum", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "psychology", "w": 2 },
-      { "id": "self_management", "w": 2 },
-      { "id": "presentation", "w": 2 },
-      { "id": "sales", "w": 1 }
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "curriculum",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 2
+      },
+      {
+        "id": "self_management",
+        "w": 2
+      },
+      {
+        "id": "presentation",
+        "w": 2
+      },
+      {
+        "id": "sales",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [8, 15],
-      "senior": [15, 30],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        8,
+        15
+      ],
+      "senior": [
+        15,
+        30
+      ],
       "note": "一线/新一线城市参考区间，多为底薪加课时费，寒暑假偏高、平时偏低，素质类与一对一差异大；估算值，不是官方统计"
     },
     "growth": [
@@ -628,13 +1067,22 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "trainer", "curriculum-designer", "edu-consultant"],
+    "adjacent": [
+      "teacher",
+      "trainer",
+      "curriculum-designer",
+      "edu-consultant"
+    ],
     "reality": "收入跟课时绑死，不上课就没钱，寒暑假连轴转、平时晚上和周末全搭进去。双减之后学科类岗位少了一大半，续费率低就被砍课；家长要的是分数，不是你的教学理想。"
   },
   {
     "id": "exam-trainer",
     "name": "考公考研讲师",
-    "aliases": ["公考讲师", "考研讲师", "行测讲师"],
+    "aliases": [
+      "公考讲师",
+      "考研讲师",
+      "行测讲师"
+    ],
     "track": "教育",
     "tagline": "自己先考明白，再站到台上把几百人讲明白",
     "daily": [
@@ -645,22 +1093,62 @@
       "旺季连着讲七天，嗓子靠含片撑着，回酒店还要改讲义"
     ],
     "friendly": "中",
-    "majors": ["汉语言文学", "法学", "数学与应用数学", "政治学与行政学", "教育学", "历史学"],
+    "majors": [
+      "汉语言文学",
+      "法学",
+      "数学与应用数学",
+      "政治学与行政学",
+      "教育学",
+      "历史学"
+    ],
     "skills": [
-      { "id": "teaching", "w": 3 },
-      { "id": "presentation", "w": 3 },
-      { "id": "logic", "w": 3 },
-      { "id": "pressure", "w": 3 },
-      { "id": "writing", "w": 2 },
-      { "id": "curriculum", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "learning", "w": 2 }
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "presentation",
+        "w": 3
+      },
+      {
+        "id": "logic",
+        "w": 3
+      },
+      {
+        "id": "pressure",
+        "w": 3
+      },
+      {
+        "id": "writing",
+        "w": 2
+      },
+      {
+        "id": "curriculum",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "learning",
+        "w": 2
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [5, 10],
-      "mid": [10, 20],
-      "senior": [20, 50],
+      "junior": [
+        5,
+        10
+      ],
+      "mid": [
+        10,
+        20
+      ],
+      "senior": [
+        20,
+        50
+      ],
       "note": "一线/新一线城市参考区间，多为底薪加课时费和续班奖，头部讲师远高于此、小机构不稳定；估算值，不是官方统计"
     },
     "growth": [
@@ -698,13 +1186,22 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "trainer", "curriculum-designer", "civil-servant"],
+    "adjacent": [
+      "teacher",
+      "trainer",
+      "curriculum-designer",
+      "civil-servant"
+    ],
     "reality": "旺季（考前两三个月）连着讲，一天六七个小时，嗓子废掉是职业伤。学员考不上，第一反应是老师讲得不好；续班率低就排不到课。这行吃青春和体力，三十多岁还在跑大班的人不多。"
   },
   {
     "id": "pe-coach",
     "name": "体育教练",
-    "aliases": ["体育老师", "体能教练", "篮球教练"],
+    "aliases": [
+      "体育老师",
+      "体能教练",
+      "篮球教练"
+    ],
     "track": "教育",
     "tagline": "带人练身体，也带人达标、带人减肥",
     "daily": [
@@ -715,22 +1212,61 @@
       "下课后排下月课程，续课率月底要报给店长"
     ],
     "friendly": "中",
-    "majors": ["体育教育", "运动训练", "社会体育指导与管理", "运动人体科学", "武术与民族传统体育"],
+    "majors": [
+      "体育教育",
+      "运动训练",
+      "社会体育指导与管理",
+      "运动人体科学",
+      "武术与民族传统体育"
+    ],
     "skills": [
-      { "id": "teaching", "w": 3 },
-      { "id": "physical_stamina", "w": 3 },
-      { "id": "communication", "w": 2 },
-      { "id": "first_aid", "w": 2 },
-      { "id": "safety", "w": 2 },
-      { "id": "curriculum", "w": 2 },
-      { "id": "sales", "w": 2 },
-      { "id": "psychology", "w": 1 }
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "physical_stamina",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "first_aid",
+        "w": 2
+      },
+      {
+        "id": "safety",
+        "w": 2
+      },
+      {
+        "id": "curriculum",
+        "w": 2
+      },
+      {
+        "id": "sales",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [8, 15],
-      "senior": [15, 30],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        8,
+        15
+      ],
+      "senior": [
+        15,
+        30
+      ],
       "note": "一线/新一线城市参考区间，底薪加课时或私教提成，学校编制与商业机构差异大；估算值，不是官方统计"
     },
     "growth": [
@@ -768,13 +1304,22 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "kindergarten-teacher", "rehab-therapist", "health-manager"],
+    "adjacent": [
+      "teacher",
+      "kindergarten-teacher",
+      "rehab-therapist",
+      "health-manager"
+    ],
     "reality": "一天站六七个小时，夏天在室外晒、冬天在馆里冻，嗓子喊到哑。课时费跟排课挂钩，招生季还要自己拉人；学员受伤、家长投诉，责任都在教练身上。"
   },
   {
     "id": "art-teacher",
     "name": "美术老师",
-    "aliases": ["美术教师", "画室老师", "少儿美术老师"],
+    "aliases": [
+      "美术教师",
+      "画室老师",
+      "少儿美术老师"
+    ],
     "track": "教育",
     "tagline": "教画画，也教怎么应付考试和家长的期待",
     "daily": [
@@ -785,22 +1330,62 @@
       "下班后整理画室，洗调色盘、补颜料，第二天还要用"
     ],
     "friendly": "中",
-    "majors": ["美术学", "绘画", "视觉传达设计", "环境设计", "艺术教育", "雕塑"],
+    "majors": [
+      "美术学",
+      "绘画",
+      "视觉传达设计",
+      "环境设计",
+      "艺术教育",
+      "雕塑"
+    ],
     "skills": [
-      { "id": "teaching", "w": 3 },
-      { "id": "illustration", "w": 3 },
-      { "id": "creativity", "w": 3 },
-      { "id": "communication", "w": 2 },
-      { "id": "curriculum", "w": 2 },
-      { "id": "design_tools", "w": 2 },
-      { "id": "detail", "w": 2 },
-      { "id": "psychology", "w": 1 }
+      {
+        "id": "teaching",
+        "w": 3
+      },
+      {
+        "id": "illustration",
+        "w": 3
+      },
+      {
+        "id": "creativity",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "curriculum",
+        "w": 2
+      },
+      {
+        "id": "design_tools",
+        "w": 2
+      },
+      {
+        "id": "detail",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [7, 14],
-      "senior": [12, 25],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        7,
+        14
+      ],
+      "senior": [
+        12,
+        25
+      ],
       "note": "一线/新一线城市参考区间，学校编制、画室、少儿机构差异大，艺考班旺季偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -838,13 +1423,21 @@
         ]
       }
     ],
-    "adjacent": ["teacher", "kindergarten-teacher", "graphic-designer", "illustrator"],
+    "adjacent": [
+      "teacher",
+      "kindergarten-teacher",
+      "graphic-designer",
+      "illustrator"
+    ],
     "reality": "学校美术课常被当成副科，课时少、评优难；机构里要背续费和招生，家长要看孩子画出「像样」的东西。艺考班旺季连轴转，一天改几十张画，眼睛和腰都吃不消。"
   },
   {
     "id": "edu-consultant",
     "name": "教育咨询师",
-    "aliases": ["课程顾问", "教育规划师", "招生顾问"],
+    "aliases": [
+      "课程顾问",
+      "教育规划师"
+    ],
     "track": "教育",
     "tagline": "接家长的电话，把课程讲清楚，也把单签下来",
     "daily": [
@@ -855,22 +1448,62 @@
       "月底冲业绩，还差两单，主管在群里点名"
     ],
     "friendly": "高",
-    "majors": ["市场营销", "教育学", "心理学", "汉语言文学", "工商管理", "英语"],
+    "majors": [
+      "市场营销",
+      "教育学",
+      "心理学",
+      "汉语言文学",
+      "工商管理",
+      "英语"
+    ],
     "skills": [
-      { "id": "sales", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "pressure", "w": 3 },
-      { "id": "service_mind", "w": 2 },
-      { "id": "psychology", "w": 2 },
-      { "id": "presentation", "w": 2 },
-      { "id": "market_research", "w": 1 },
-      { "id": "excel", "w": 1 }
+      {
+        "id": "sales",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "pressure",
+        "w": 3
+      },
+      {
+        "id": "service_mind",
+        "w": 2
+      },
+      {
+        "id": "psychology",
+        "w": 2
+      },
+      {
+        "id": "presentation",
+        "w": 2
+      },
+      {
+        "id": "market_research",
+        "w": 1
+      },
+      {
+        "id": "excel",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [7, 15],
-      "senior": [15, 30],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        7,
+        15
+      ],
+      "senior": [
+        15,
+        30
+      ],
       "note": "一线/新一线城市参考区间，底薪加提成，机构之间差距极大，旺季偏高；估算值，不是官方统计"
     },
     "growth": [
@@ -908,13 +1541,22 @@
         ]
       }
     ],
-    "adjacent": ["tutor", "study-abroad", "marketing-specialist", "customer-success"],
+    "adjacent": [
+      "tutor",
+      "study-abroad",
+      "marketing-specialist",
+      "customer-success"
+    ],
     "reality": "本质是销售，背到访量和签约额，月底冲不上去就要加班打电话。家长交钱前你是老师，交钱后出了问题第一个被找。双减之后学科类机构收缩，这行稳定性差，换机构是常事。"
   },
   {
     "id": "scriptwriter",
     "name": "编剧",
-    "aliases": ["影视编剧", "短剧编剧", "剧本策划"],
+    "aliases": [
+      "影视编剧",
+      "短剧编剧",
+      "剧本策划"
+    ],
     "track": "传媒/内容",
     "tagline": "把想法写成分场和台词，再等着被改十几遍",
     "daily": [
@@ -925,22 +1567,61 @@
       "项目款拖了三个月，问制片什么时候结，他说在走流程"
     ],
     "friendly": "低",
-    "majors": ["戏剧影视文学", "广播电视编导", "汉语言文学", "电影学", "戏剧学"],
+    "majors": [
+      "戏剧影视文学",
+      "广播电视编导",
+      "汉语言文学",
+      "电影学",
+      "戏剧学"
+    ],
     "skills": [
-      { "id": "script_writing", "w": 3 },
-      { "id": "writing", "w": 3 },
-      { "id": "creativity", "w": 3 },
-      { "id": "content_planning", "w": 2 },
-      { "id": "editing", "w": 2 },
-      { "id": "communication", "w": 2 },
-      { "id": "self_management", "w": 2 },
-      { "id": "pressure", "w": 2 }
+      {
+        "id": "script_writing",
+        "w": 3
+      },
+      {
+        "id": "writing",
+        "w": 3
+      },
+      {
+        "id": "creativity",
+        "w": 3
+      },
+      {
+        "id": "content_planning",
+        "w": 2
+      },
+      {
+        "id": "editing",
+        "w": 2
+      },
+      {
+        "id": "communication",
+        "w": 2
+      },
+      {
+        "id": "self_management",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [4, 8],
-      "mid": [8, 20],
-      "senior": [20, 50],
+      "junior": [
+        4,
+        8
+      ],
+      "mid": [
+        8,
+        20
+      ],
+      "senior": [
+        20,
+        50
+      ],
       "note": "一线/新一线城市参考区间，项目制按集或按项目结算，回款慢，多数新人低于此区间；估算值，不是官方统计"
     },
     "growth": [
@@ -978,13 +1659,22 @@
         ]
       }
     ],
-    "adjacent": ["journalist", "video-director", "copywriter", "film-post"],
+    "adjacent": [
+      "journalist",
+      "video-director",
+      "copywriter",
+      "film-post"
+    ],
     "reality": "项目制，没项目就没收入，回款拖三个月到一年都常见。剧本被改到面目全非是常态，署名还不一定有。AI 已经能写套路化短剧和分集大纲，只会套模板的人最危险。"
   },
   {
     "id": "voice-actor",
     "name": "配音员",
-    "aliases": ["配音演员", "声优", "有声书主播"],
+    "aliases": [
+      "配音演员",
+      "声优",
+      "有声书主播"
+    ],
     "track": "传媒/内容",
     "tagline": "用声音演角色、念广告，也接没人愿意接的活",
     "daily": [
@@ -995,24 +1685,69 @@
       "晚上剪音频、降噪、对轨，第二天一早要交"
     ],
     "friendly": "低",
-    "majors": ["播音与主持艺术", "表演", "广播电视编导", "音乐学", "汉语言文学"],
+    "majors": [
+      "播音与主持艺术",
+      "表演",
+      "广播电视编导",
+      "音乐学",
+      "汉语言文学"
+    ],
     "skills": [
-      { "id": "dubbing", "w": 3 },
-      { "id": "audio", "w": 3 },
-      { "id": "communication", "w": 3 },
-      { "id": "post_production", "w": 2 },
-      { "id": "empathy", "w": 2 },
-      { "id": "pressure", "w": 2 },
-      { "id": "self_management", "w": 2 },
-      { "id": "creativity", "w": 1 },
-      { "id": "foreign_language", "w": 1 },
-      { "id": "video_editing", "w": 1 }
+      {
+        "id": "dubbing",
+        "w": 3
+      },
+      {
+        "id": "audio",
+        "w": 3
+      },
+      {
+        "id": "communication",
+        "w": 3
+      },
+      {
+        "id": "post_production",
+        "w": 2
+      },
+      {
+        "id": "empathy",
+        "w": 2
+      },
+      {
+        "id": "pressure",
+        "w": 2
+      },
+      {
+        "id": "self_management",
+        "w": 2
+      },
+      {
+        "id": "creativity",
+        "w": 1
+      },
+      {
+        "id": "foreign_language",
+        "w": 1
+      },
+      {
+        "id": "video_editing",
+        "w": 1
+      }
     ],
     "salary": {
       "unit": "千元/月（税前）",
-      "junior": [3, 7],
-      "mid": [7, 15],
-      "senior": [15, 40],
+      "junior": [
+        3,
+        7
+      ],
+      "mid": [
+        7,
+        15
+      ],
+      "senior": [
+        15,
+        40
+      ],
       "note": "一线/新一线城市参考区间，按条、按分钟或按集计费，新人多数接不到稳定活，头部远高于此；估算值，不是官方统计"
     },
     "growth": [
@@ -1050,7 +1785,12 @@
         ]
       }
     ],
-    "adjacent": ["streamer", "film-post", "video-editor", "scriptwriter"],
+    "adjacent": [
+      "streamer",
+      "film-post",
+      "video-editor",
+      "scriptwriter"
+    ],
     "reality": "大部分人是兼职，活不稳定，试音十次中一次是常态。棚里录一天，嗓子废掉、耳鸣是职业伤；AI 配音已经能覆盖大量旁白和课件，低价单被压得很惨。"
   }
 ]
