@@ -1,0 +1,13 @@
+街道观察 0.2.0 / Windows x64 便携版
+
+1. 将整个 StreetObservatory 文件夹解压到本机。
+2. 双击 StreetObservatory.exe；不要只复制 exe，_internal 文件夹也需要保留。
+3. 无需安装 Python。系统需要 Microsoft Edge WebView2 Runtime（多数 Windows 10/11 已有）。
+4. 点右上角“AI 待配置”，粘贴自己的 DeepSeek API Key 或导入 TXT，然后保存并测试。
+5. 每位 Windows 用户的数据保存在 %LOCALAPPDATA%\StreetObservatory；密钥用当前 Windows 用户加密。
+6. 不同浏览器配置的 Key 相互独立。清除浏览器数据后需要重新配置。
+7. 安装包不包含任何开发者 Key、上传视频或个人调研数据。
+
+视频检测可离线运行；DeepSeek AI 需要网络和用户自己的有效 Key，按其 DeepSeek 账户计费。
+模型目前支持行人过线计数。服装、携带物品等属性识别尚未接入。
+程序未进行代码签名。源代码、依赖及许可证见同目录说明。

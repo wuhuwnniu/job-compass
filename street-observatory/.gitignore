@@ -1,0 +1,16 @@
+.venv/
+data/
+.env
+__pycache__/
+*.pt
+*.log
+test-output/
+build/
+dist/
+release/
+.tools/
+*.zip
+*.part
+*.db
+*.db-shm
+*.db-wal

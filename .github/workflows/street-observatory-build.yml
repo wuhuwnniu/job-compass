@@ -1,0 +1,51 @@
+name: Street Observatory Windows
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'street-observatory/**'
+      - '.github/workflows/street-observatory-build.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: street-observatory
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install CPU runtime and build dependencies
+        run: |
+          python -m venv .venv
+          .venv/Scripts/python.exe -m pip install --upgrade pip
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          .venv/Scripts/python.exe -m pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          .venv/Scripts/python.exe -m pip install -r requirements-lock.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Run regression tests
+        run: .venv/Scripts/python.exe -m unittest discover -s tests -v
+      - name: Build and self-test desktop app
+        run: ./tools/build_windows.ps1 -SkipInstall
+      - name: Upload portable Windows package
+        uses: actions/upload-artifact@v4
+        with:
+          name: StreetObservatory-0.2.0-windows-x64
+          path: |
+            street-observatory/release/StreetObservatory-0.2.0-windows-x64.zip
+            street-observatory/release/SHA256SUMS.txt
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 30
